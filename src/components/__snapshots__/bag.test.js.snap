@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookStore component render BookStore component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(Bag)
+    bag={Array []}
+  >
+    <Bag
+      bag={Array []}
+      dispatch={[Function]}
+    >
+      <div
+        className="bag"
+      >
+        <div
+          className="bag-container"
+          id="bag-container"
+        >
+          <span
+            className="books-count"
+            id="books-count"
+          >
+            0
+          </span>
+          <img
+            alt="bag"
+            id="bag-image"
+            onClick={[Function]}
+            src="icon.png"
+          />
+        </div>
+      </div>
+    </Bag>
+  </Connect(Bag)>
+</Provider>
+`;

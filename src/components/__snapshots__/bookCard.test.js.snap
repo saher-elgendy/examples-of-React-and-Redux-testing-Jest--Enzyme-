@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookStore component render BookCard component correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(BookCard)
+    addBookToBag={[MockFunction]}
+    bag={Array []}
+    book={Object {}}
+    removeBookFromBag={[MockFunction]}
+  >
+    <BookCard
+      addBookToBag={[Function]}
+      bag={Array []}
+      book={Object {}}
+      removeBookFromBag={[Function]}
+    >
+      <li
+        className="book-card"
+      >
+        <img
+          alt="book"
+          className="book-cover"
+        />
+        <h4
+          id="book-name"
+        />
+        <h4
+          id="book-author"
+        >
+          Author: 
+          <span
+            style={
+              Object {
+                "fontWeight": "normal",
+              }
+            }
+          />
+        </h4>
+        <h4
+          id="page-count"
+        >
+          Page Count: 
+          <span
+            style={
+              Object {
+                "fontWeight": "normal",
+              }
+            }
+          />
+        </h4>
+        <BookCardButton
+          addBookToBag={[Function]}
+          bag={Array []}
+          book={Object {}}
+          removeBookFromBag={[Function]}
+        >
+          <button
+            className="book-card-btn add-book-btn"
+            onClick={[Function]}
+          >
+            ADD TO BAG
+          </button>
+        </BookCardButton>
+      </li>
+    </BookCard>
+  </Connect(BookCard)>
+</Provider>
+`;

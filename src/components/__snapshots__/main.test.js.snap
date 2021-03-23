@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main component render Main component correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    data-testid="header"
+  >
+    <h2>
+      React Testing
+    </h2>
+    <Connect(Bag) />
+  </header>
+  <BookStore
+    books={Array []}
+  />
+</div>
+`;

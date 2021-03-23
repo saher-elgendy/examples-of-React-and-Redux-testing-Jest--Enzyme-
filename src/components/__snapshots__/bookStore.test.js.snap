@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookStore component render BookStore component correctly 1`] = `
+<div
+  className="book-store"
+>
+  <ul
+    className="books-list"
+  />
+</div>
+`;

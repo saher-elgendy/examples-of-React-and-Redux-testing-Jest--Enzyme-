@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BookStore component render BookStore component correctly 1`] = `
+<button
+  className="book-card-btn add-book-btn"
+  onClick={[Function]}
+>
+  ADD TO BAG
+</button>
+`;
